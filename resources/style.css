@@ -127,7 +127,6 @@ nav ul {
   display: flex;
   justify-content: space-between;
   padding-bottom: 4rem;
-  flex-wrap: wrap;
 
 }
 
@@ -215,9 +214,16 @@ footer {
     display: none;
   }
 
+  .info {
+    width: 90%;
+    padding-top: 0.5rem;
+  }
+
   .business-info {
+    justify-content: center;
     flex-wrap: wrap;
   }
+
 
   footer {
     text-align: center;
